@@ -1,3 +1,15 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: {
+    default: "Arcziego w Internecie dziura. Dzień dobry.",
+    absolute: "Arcziego w Internecie dziura. Dzień dobry.",
+    template: "%s | Arcziego w Internecie dziura | Dzień dobry.",
+  },
+  description:
+    "Zasadniczo, dziennik i nie; zeszyt i nie; popis, ale też nie, bo się źle kojarzy.",
+};
+
 export default function Home() {
   return (
     <main className="h-dvh w-screen flex gap-1 flex-col justify-center  max-w-2xl mx-auto">
