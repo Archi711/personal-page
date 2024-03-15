@@ -4,7 +4,7 @@ const withMDX = createMDX({});
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/personal-page",
+  // basePath: "/personal-page",
   pageExtensions: ["tsx", "mdx"],
   output: "export",
 };

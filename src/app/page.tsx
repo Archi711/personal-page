@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="h-dvh w-screen flex gap-1 flex-col justify-center  max-w-2xl mx-auto">
+    <main className="flex h-full flex-1 gap-1 flex-col justify-center  max-w-2xl mx-auto">
       <header className="flex flex-col gap-1 ">
         <h1 className="text-4xl">Witam.</h1>
         <p className="text-muted-foreground text-sm">
